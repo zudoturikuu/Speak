@@ -1,4 +1,4 @@
-Speak is an project for Tech For Good 2022 created by Wong Jun Heng and Caleb Cheong Yong Zhen dedicated to helping people with intellectual disabilities with social interactions in their day to day lives.
+Speak is a project for Tech For Good 2022 created by Wong Jun Heng and Caleb Cheong Yong Zhen dedicated to helping people with intellectual disabilities with social interactions in their day to day lives.
 Speak has features such as Social etiquette tips to help educate those with intellectual disabilities on proper social etiquette.
 Speak also features fun facts and jokes to help entertain and calm users
 Speak also features a simple AI Chatbot that can help users practice social interaction online.
