@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct FactsView: View {
+    
+    @ObservedObject var factManager: FactManager
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -15,6 +18,6 @@ struct FactsView: View {
 
 struct FactsView_Previews: PreviewProvider {
     static var previews: some View {
-        FactsView()
+        FactsView(factManager: FactManager())
     }
 }
