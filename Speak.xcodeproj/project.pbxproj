@@ -17,6 +17,8 @@
 		053F1A7728917A3F005F22B2 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A7628917A3F005F22B2 /* FeaturesView.swift */; };
 		053F1A7928917A4B005F22B2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A7828917A4B005F22B2 /* SettingsView.swift */; };
 		053F1A7F289180A9005F22B2 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A7E289180A9005F22B2 /* Tips.swift */; };
+		053F1A812892C6F1005F22B2 /* ChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A802892C6F1005F22B2 /* ChatbotView.swift */; };
+		053F1A832892C860005F22B2 /* tipsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A822892C860005F22B2 /* tipsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		053F1A7628917A3F005F22B2 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
 		053F1A7828917A4B005F22B2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		053F1A7E289180A9005F22B2 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		053F1A802892C6F1005F22B2 /* ChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotView.swift; sourceTree = "<group>"; };
+		053F1A822892C860005F22B2 /* tipsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +69,13 @@
 			children = (
 				053470A0287AE98100CF4662 /* SpeakApp.swift */,
 				053F1A7E289180A9005F22B2 /* Tips.swift */,
+				053F1A822892C860005F22B2 /* tipsManager.swift */,
 				053470A2287AE98100CF4662 /* ContentView.swift */,
 				053F1A70289179F5005F22B2 /* TipsView.swift */,
 				053F1A7228917A0A005F22B2 /* FactsView.swift */,
 				053F1A7428917A1A005F22B2 /* EncouragementView.swift */,
 				053F1A7628917A3F005F22B2 /* FeaturesView.swift */,
+				053F1A802892C6F1005F22B2 /* ChatbotView.swift */,
 				053F1A7828917A4B005F22B2 /* SettingsView.swift */,
 				053470A4287AE98300CF4662 /* Assets.xcassets */,
 				053470A6287AE98300CF4662 /* Preview Content */,
@@ -160,6 +166,8 @@
 				053470A3287AE98100CF4662 /* ContentView.swift in Sources */,
 				053F1A7328917A0A005F22B2 /* FactsView.swift in Sources */,
 				053470A1287AE98100CF4662 /* SpeakApp.swift in Sources */,
+				053F1A832892C860005F22B2 /* tipsManager.swift in Sources */,
+				053F1A812892C6F1005F22B2 /* ChatbotView.swift in Sources */,
 				053F1A7F289180A9005F22B2 /* Tips.swift in Sources */,
 				053F1A7528917A1A005F22B2 /* EncouragementView.swift in Sources */,
 				053F1A7728917A3F005F22B2 /* FeaturesView.swift in Sources */,

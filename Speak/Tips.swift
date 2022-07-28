@@ -7,7 +7,14 @@
 
 import Foundation
 
-struct Tips: Identifiable, Codable {
+struct Tip: Identifiable, Codable {
     var id = UUID()
     var title: String
+    
+    static let allRaw = [
+    "Social etiquette tip 1",
+    "Social etiquette tip 2",
+    "Social etiquette tip 3",
+    "Social etiquette tip 4",
+    ]
 }

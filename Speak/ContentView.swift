@@ -8,10 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    }
     var body: some View {
-                            
+                 Text("Idk what to put here")
     }
 
 struct ContentView_Previews: PreviewProvider {
@@ -21,3 +19,4 @@ struct ContentView_Previews: PreviewProvider {
 }
     
 
+}
