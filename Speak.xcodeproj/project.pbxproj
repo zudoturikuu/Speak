@@ -23,6 +23,12 @@
 		053F1A872892CA01005F22B2 /* Encouragement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A862892CA01005F22B2 /* Encouragement.swift */; };
 		053F1A892892CA87005F22B2 /* factsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A882892CA87005F22B2 /* factsManager.swift */; };
 		053F1A8B2892CAE6005F22B2 /* encouragementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A8A2892CAE6005F22B2 /* encouragementManager.swift */; };
+		053F1A8D2893E4D9005F22B2 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A8C2893E4D9005F22B2 /* Features.swift */; };
+		053F1A8F2893E519005F22B2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A8E2893E519005F22B2 /* Settings.swift */; };
+		053F1A912893E539005F22B2 /* Chatbot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A902893E539005F22B2 /* Chatbot.swift */; };
+		053F1A932893E56C005F22B2 /* featuresManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A922893E56C005F22B2 /* featuresManager.swift */; };
+		053F1A952893E6A2005F22B2 /* chatbotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A942893E6A2005F22B2 /* chatbotManager.swift */; };
+		053F1A972893E70E005F22B2 /* settingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1A962893E70E005F22B2 /* settingsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +49,12 @@
 		053F1A862892CA01005F22B2 /* Encouragement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encouragement.swift; sourceTree = "<group>"; };
 		053F1A882892CA87005F22B2 /* factsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = factsManager.swift; sourceTree = "<group>"; };
 		053F1A8A2892CAE6005F22B2 /* encouragementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encouragementManager.swift; sourceTree = "<group>"; };
+		053F1A8C2893E4D9005F22B2 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
+		053F1A8E2893E519005F22B2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		053F1A902893E539005F22B2 /* Chatbot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatbot.swift; sourceTree = "<group>"; };
+		053F1A922893E56C005F22B2 /* featuresManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featuresManager.swift; sourceTree = "<group>"; };
+		053F1A942893E6A2005F22B2 /* chatbotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatbotManager.swift; sourceTree = "<group>"; };
+		053F1A962893E70E005F22B2 /* settingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,12 @@
 				053F1A882892CA87005F22B2 /* factsManager.swift */,
 				053F1A862892CA01005F22B2 /* Encouragement.swift */,
 				053F1A8A2892CAE6005F22B2 /* encouragementManager.swift */,
+				053F1A8C2893E4D9005F22B2 /* Features.swift */,
+				053F1A922893E56C005F22B2 /* featuresManager.swift */,
+				053F1A902893E539005F22B2 /* Chatbot.swift */,
+				053F1A942893E6A2005F22B2 /* chatbotManager.swift */,
+				053F1A8E2893E519005F22B2 /* Settings.swift */,
+				053F1A962893E70E005F22B2 /* settingsManager.swift */,
 				053470A2287AE98100CF4662 /* ContentView.swift */,
 				053F1A70289179F5005F22B2 /* TipsView.swift */,
 				053F1A7228917A0A005F22B2 /* FactsView.swift */,
@@ -173,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053F1A932893E56C005F22B2 /* featuresManager.swift in Sources */,
 				053F1A7928917A4B005F22B2 /* SettingsView.swift in Sources */,
 				053F1A71289179F5005F22B2 /* TipsView.swift in Sources */,
 				053470A3287AE98100CF4662 /* ContentView.swift in Sources */,
@@ -180,10 +199,15 @@
 				053F1A872892CA01005F22B2 /* Encouragement.swift in Sources */,
 				053F1A7328917A0A005F22B2 /* FactsView.swift in Sources */,
 				053470A1287AE98100CF4662 /* SpeakApp.swift in Sources */,
+				053F1A972893E70E005F22B2 /* settingsManager.swift in Sources */,
 				053F1A832892C860005F22B2 /* tipsManager.swift in Sources */,
+				053F1A912893E539005F22B2 /* Chatbot.swift in Sources */,
 				053F1A812892C6F1005F22B2 /* ChatbotView.swift in Sources */,
+				053F1A8D2893E4D9005F22B2 /* Features.swift in Sources */,
+				053F1A8F2893E519005F22B2 /* Settings.swift in Sources */,
 				053F1A852892C9AF005F22B2 /* Facts.swift in Sources */,
 				053F1A7F289180A9005F22B2 /* Tips.swift in Sources */,
+				053F1A952893E6A2005F22B2 /* chatbotManager.swift in Sources */,
 				053F1A7528917A1A005F22B2 /* EncouragementView.swift in Sources */,
 				053F1A7728917A3F005F22B2 /* FeaturesView.swift in Sources */,
 				053F1A892892CA87005F22B2 /* factsManager.swift in Sources */,

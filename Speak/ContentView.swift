@@ -27,7 +27,7 @@ struct ContentView: View {
             
             EncouragementView(encouragementManager: encouragementManger)
                 .tabItem {
-                    Label("Encouraging quotes", systemImage: "heart")
+                    Label("Encouraging messages", systemImage: "heart")
                 }
         }
     }
