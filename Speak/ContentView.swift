@@ -12,6 +12,9 @@ struct ContentView: View {
     @StateObject var tipManager = TipManager()
     @StateObject var factManager = FactManager()
     @StateObject var encouragementManger = EncouragementManager()
+    @StateObject var featureManager = FeatureManager()
+    @StateObject var chatbotManager = ChatbotManager()
+    @StateObject var settingManager = SettingManager()
     
     var body: some View {
         TabView {

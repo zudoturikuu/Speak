@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class Chatbotnager: ObservableObject {
+class ChatbotManager: ObservableObject {
     @Published var chatbots: [Chatbot] = [] {
         didSet {
             save()
