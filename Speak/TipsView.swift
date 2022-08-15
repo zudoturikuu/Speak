@@ -10,8 +10,13 @@ import SwiftUI
 struct TipsView: View {
     
     @ObservedObject var tipManager: TipManager
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack {
+                
+            }
+}
     }
 }
 
@@ -20,3 +25,5 @@ struct TipsView_Previews: PreviewProvider {
         TipsView(tipManager: TipManager())
     }
 }
+    
+

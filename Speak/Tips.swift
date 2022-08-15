@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Tip: Identifiable, Codable {
+struct Tip: Identifiable, Codable, Equatable {
     var id = UUID()
     var title: String
     
@@ -17,4 +17,10 @@ struct Tip: Identifiable, Codable {
     "Social etiquette tip 3",
     "Social etiquette tip 4",
     ]
+    
+    static var all: [Tip] {
+        return allRaw.enumerated().map { (n, tip) in
+            Tip(title: tip)
+        }
+    }
 }
