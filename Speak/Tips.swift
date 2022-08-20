@@ -23,4 +23,8 @@ struct Tip: Identifiable, Codable, Equatable {
             Tip(title: tip)
         }
     }
-}
+    
+    static var sample: [Tip] {
+        return Array(all.shuffled().prefix(through: 1))
+        }
+    }
