@@ -10,6 +10,9 @@ import SwiftUI
 struct TipsView: View {
     
     @ObservedObject var tipManager: TipManager
+    @State var isTipPresented = false
+    @State var randomTip = Tip.sample
+    @State var allTips = Tip.all
     
     var body: some View {
         NavigationView {
@@ -17,14 +20,11 @@ struct TipsView: View {
                 ScrollView {
                     VStack (alignment: .leading) {
                         Text("Browse through our hundreds of Social Etiquette tips")
-                            .font(.system(.headline, design: .rounded))
+                            .font(.system(size: 20))
                             .foregroundStyle(.primary)
                             .padding(.horizontal)
                             .padding(.top)
                         
-                        ScrollView {
-                            HStack{
-                                
                             }
                         }
                     }
@@ -32,9 +32,9 @@ struct TipsView: View {
                 }
             }
         }
-        .navigationTitle("Social Etiquette Tips")
-}
-}
+        //.navigationTitle("Social Etiquette Tips")
+
+
 struct TipsView_Previews: PreviewProvider {
     static var previews: some View {
         TipsView(tipManager: TipManager())
