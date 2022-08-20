@@ -23,11 +23,8 @@ struct TipsView: View {
                             .padding(.top)
                         
                         ScrollView {
-                            HStack {
-                                ForEach(Tip) {
-                                    tips in
-                                    
-                                }
+                            HStack{
+                                
                             }
                         }
                     }
