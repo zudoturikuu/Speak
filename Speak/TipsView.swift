@@ -17,15 +17,23 @@ struct TipsView: View {
     var body: some View {
         NavigationView {
             VStack (alignment: .leading) {
-                ScrollView {
-                    VStack (alignment: .leading) {
-                        Text("Browse through our hundreds of Social Etiquette tips")
-                            .font(.system(size: 20))
-                            .foregroundStyle(.primary)
-                            .padding(.horizontal)
-                            .padding(.top)
-                        
+                NavigationView {
+                    ScrollView {
+                        List {
+                            ForEach($tipManager.tips) { $tip in
+                                NavigationLink {
+                                    TipDetailView(tips: $tips)
+                                } label: {
+                                    HStack {
+                                        
+                                    }
+                                }
                             }
+                                
+                            
+                        }
+                        
+                    }
                         }
                     }
                     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052C67B628B9A65200731569 /* TipsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052C67B528B9A65200731569 /* TipsDetailView.swift */; };
 		053470A1287AE98100CF4662 /* SpeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053470A0287AE98100CF4662 /* SpeakApp.swift */; };
 		053470A3287AE98100CF4662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053470A2287AE98100CF4662 /* ContentView.swift */; };
 		053470A5287AE98300CF4662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053470A4287AE98300CF4662 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		052C67B528B9A65200731569 /* TipsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDetailView.swift; sourceTree = "<group>"; };
 		0534709D287AE98100CF4662 /* Speak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		053470A0287AE98100CF4662 /* SpeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakApp.swift; sourceTree = "<group>"; };
 		053470A2287AE98100CF4662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				053F1A962893E70E005F22B2 /* settingsManager.swift */,
 				053470A2287AE98100CF4662 /* ContentView.swift */,
 				053F1A70289179F5005F22B2 /* TipsView.swift */,
+				052C67B528B9A65200731569 /* TipsDetailView.swift */,
 				053F1A7228917A0A005F22B2 /* FactsView.swift */,
 				053F1A7428917A1A005F22B2 /* EncouragementView.swift */,
 				053F1A7628917A3F005F22B2 /* FeaturesView.swift */,
@@ -211,6 +214,7 @@
 				053F1A7528917A1A005F22B2 /* EncouragementView.swift in Sources */,
 				053F1A7728917A3F005F22B2 /* FeaturesView.swift in Sources */,
 				053F1A892892CA87005F22B2 /* factsManager.swift in Sources */,
+				052C67B628B9A65200731569 /* TipsDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
