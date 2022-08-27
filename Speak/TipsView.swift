@@ -22,7 +22,7 @@ struct TipsView: View {
                         List {
                             ForEach($tipManager.tips) { $tip in
                                 NavigationLink {
-                                    TipDetailView(tips: $tips)
+                                    TipDetailView()
                                 } label: {
                                     HStack {
                                         

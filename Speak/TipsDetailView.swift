@@ -15,6 +15,6 @@ struct TipDetailView: View {
 
 struct TipsDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TipsDetailView()
+        TipDetailView()
     }
 }
