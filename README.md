@@ -4,4 +4,4 @@ Speak also features fun facts and jokes to help entertain and calm users.
 Speak also features a simple AI Chatbot that can help users practice social interaction online.
 Speak will also give encouraging messages to users.
 It will also feature something called "Conversation mode" which users can enable before going into a conversation to get pointers and refreshers on social etiquette tips.
-We also hope to expand 'Speak' to be able to use on other platforms such as robots like Sphero or audio devices and also the Android platform.
+We also hope to expand 'Speak' to be able to use on other platforms such as robots like Sphero or audio devices and also the Android platform. (Figma prototype: https://www.figma.com/file/Vg1QjhPNEg2YW764DQMoim/Speak?node-id=0%3A1)
