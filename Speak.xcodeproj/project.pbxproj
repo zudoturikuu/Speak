@@ -84,10 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				054B2EE42936558F002A7E85 /* Main App */,
+				054B2EE52936559C002A7E85 /* Tips */,
 				054B2EE82936562C002A7E85 /* Chatbot */,
 				054B2EE7293655E1002A7E85 /* Encouragement */,
 				054B2EE6293655C5002A7E85 /* Facts */,
-				054B2EE52936559C002A7E85 /* Tips */,
 				054B2EE929365643002A7E85 /* Settings */,
 				053470A4287AE98300CF4662 /* Assets.xcassets */,
 				053470A6287AE98300CF4662 /* Preview Content */,
